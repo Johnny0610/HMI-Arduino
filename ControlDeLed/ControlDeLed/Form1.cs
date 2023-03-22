@@ -62,6 +62,7 @@ namespace ControlDeLed
                 label_Led.BackColor = Color.Red;
                 label_Led.Text = "OFF";
                 button_OFF.Enabled = false;
+                button_ON.Enabled = true;
             }
             catch (Exception error)
             {
@@ -78,6 +79,7 @@ namespace ControlDeLed
                 label_Led.BackColor = Color.Lime;
                 label_Led.Text = "ON";
                 button_OFF.Enabled = true;
+                button_ON.Enabled = false;
             }
             catch (Exception error)
             {
